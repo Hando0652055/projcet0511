@@ -8,6 +8,8 @@ int main(int argc, char *argv[]) {
 	// »¼¥[½m²ß 
 	for(init=0,summary=0;init<endpoint;init++)
 		summary=summary+init;
+	// show summary
 	printf("summary=%d\n",summary);
+	
 	return 0;
 }
